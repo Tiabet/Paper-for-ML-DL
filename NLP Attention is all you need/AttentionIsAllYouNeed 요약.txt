@@ -1,0 +1,9 @@
+#전체주제
+Transformer 모델 소개
+RNN, CNN 보다 훨씬 효율적이고 고성능
+attention mechanism allows it to better capture long-range dependencies in the input sequence. 
+-> Attention Mecahnism 이란? + long-range dependencies?
+
+#Introduction
+	
+
