@@ -198,11 +198,11 @@ def generate_text(model, tokenizer, prompt, max_new_tokens=20):
                 break
 
         generated_ids = input_ids[0].tolist()
-        # BOS 토큰은 제외하여 디코딩
+        # BOS 토큰은 제외하여 디코딩 (후처리)
         return tokenizer.decode(generated_ids[1:])
 
 
 # 생성 테스트
-prompt = "this is"
+prompt = ""
 generated_text = generate_text(model, tokenizer, prompt)
 print("Generated text:", generated_text)
